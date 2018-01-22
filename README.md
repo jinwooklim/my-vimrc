@@ -1,6 +1,6 @@
 # vimrc
 
-'''bash
+```bash
 	$ git clone https://github.com/jinwooklim/vimrc.git
 	$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	$ cd vimrc
@@ -11,6 +11,6 @@
 	$ cd ~/.vim/bundle/YouCompleteMe
 	$ ./install.py
 
-'''
+```
 run 'vim'
 :PlunginInstall
