@@ -6,11 +6,12 @@
 	$ cd vimrc
 	$ cat .vimrc > ~/.vimrc
 	$ sudo apt-get install build-essential cmake
-	$ sudo apt-get install pythob-dev
+	$ sudo apt-get install python-dev
 	$ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/buncle/YouCompleteMe
 	$ cd ~/.vim/bundle/YouCompleteMe
 	$ ./install.py
 
 ```
-run 'vim'
+
+Run `vim`
 :PlunginInstall
