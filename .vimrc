@@ -17,16 +17,20 @@ set tabstop=4
 set title
 set encoding=utf8
 
+"set background=dark
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'vundleVim/Vundle.vim'
     Plugin 'nanotech/jellybeans.vim'
-    "Plugin 'Valloric/YouCompleteMe'
-    Plugin 'davidhalter/jedi-vim'
+    Plugin 'Valloric/YouCompleteMe'
+	Plugin 'flazz/vim-colorschemes'
     Plugin 'scrooloose/nerdtree'
     Plugin 'scrooloose/syntastic'
     Plugin 'tpope/vim-fugitive'
     Plugin 'L9'
 call vundle#end()
 filetype plugin indent on
-"colorscheme jellybeans
+colorscheme molokai
+set t_Co=256
+let g:molokai_original = 1
