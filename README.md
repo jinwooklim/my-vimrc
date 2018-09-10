@@ -14,4 +14,4 @@
 ```
 
 Run `vim`
-:PlunginInstall
+:PluginInstall
