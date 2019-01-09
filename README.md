@@ -6,10 +6,10 @@
 	$ cd vimrc
 	$ cat .vimrc > ~/.vimrc
 	$ sudo apt-get install build-essential cmake
-	$ sudo apt-get install python-dev
+	$ sudo apt-get install python3-dev
 	$ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 	$ cd ~/.vim/bundle/YouCompleteMe
-	$ ./install.py
+	$ python3 ./install.py
 
 ```
 
