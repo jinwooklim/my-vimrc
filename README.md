@@ -7,7 +7,7 @@
 	$ cat .vimrc > ~/.vimrc
 	$ sudo apt-get install build-essential cmake
 	$ sudo apt-get install python-dev
-	$ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/buncle/YouCompleteMe
+	$ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 	$ cd ~/.vim/bundle/YouCompleteMe
 	$ ./install.py
 
