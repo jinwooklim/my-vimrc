@@ -8,8 +8,7 @@
 	$ sudo apt-get install build-essential cmake python3-dev
 	$ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 	$ cd ~/.vim/bundle/YouCompleteMe
-	$ python3 ./install.py
-
+	$ bash ./install.sh
 ```
 
 Run `vim`
